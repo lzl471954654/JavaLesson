@@ -2,6 +2,8 @@ package Chapter3;
 
 import java.util.Scanner;
 
+
+
 public class FenShu {
     private int zi;
     private int mu;
