@@ -3,6 +3,7 @@ package Chapter5_GUI;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.LinkedList;
 
 public class Main {
     public static void main(String[] args) {
@@ -64,7 +65,7 @@ class TestPanels extends JFrame{
         panel1.setLayout(new BorderLayout());
         panel1.add(new JTextField("Time"),BorderLayout.NORTH);
         panel1.add(panel,BorderLayout.CENTER);
-        add(panel1,BorderLayout.WEST);
+        add(panel1,BorderLayout.EAST);
         add(new JButton("Food"),BorderLayout.CENTER);
     }
 }
